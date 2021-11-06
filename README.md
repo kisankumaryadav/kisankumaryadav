@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @Kisankumar1408
-- 👀 I’m interested in Python.
+- 🧒🏻 Hi, I’m Kisankumar Yadav
+- 🧑🏻‍💻 I’m interested in Python.
 
 
 <!---
