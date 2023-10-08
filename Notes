@@ -10,3 +10,29 @@ kk
 CI CD REFRENCE/
 
 https://github.com/yankils/Simple-DevOps-Project
+
+
+Linux commands--
+/Oracle/12213/user_projects/domains/silver_domain/bin/startWeblogic.sh >
+
+ssh 10.226.163.33
+cd /Oracle/12213/user_projects/domains
+
+ls -lrt
+cd bin
+ls -lrt
+ps -ef|grep AdminServer
+mv nohup.out nohup.out_bkp280823
+nohup ./startWeblogic.sh &
+'tail -f nohup.out'
+
+cd /Oracle/12213/user_projects/domains/bin$ ps -ef|grep NodeManager
+nohup ./startNodeManager .sh &
+
+su - oracle
+if config -a
+
+/Oracle/12213/user_projects/domains/gold_domain/servers/osb_gold1/logs#
+less osb_silver02.out
+grep "unique value" osb_silver02.out
+tail -f osbsilver.out
